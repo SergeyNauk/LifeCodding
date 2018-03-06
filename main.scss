@@ -1,0 +1,138 @@
+@import 'reset.scss';
+
+$main-color: #00796B;
+
+* {
+  &:active, &:hover, &:focus {
+    outline: 0;
+    outline-offset: 0;
+    }
+  }
+
+html,body {
+  height: 99.9%;
+}
+header {
+  width: 100%;
+  height: 20%;
+  position: relative;
+  background-color:$main-color;
+}
+
+.wrapperH6 {
+  width: 50%;
+  height: 30%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  color:white;
+  font-size: 200%;
+}
+
+main {
+  margin-top: 3%;
+}
+
+.userMenu{
+  input {
+    background: grey;
+    color: white;
+    margin-left: 5px;
+    height: 40px;
+    text-align: center;
+    border: 0;
+    border-radius: 5px;
+    font-size: 13px;
+  }
+  button {
+    margin-left: 5px;
+    height: 40px;
+    font-size: 13px;
+    border-radius: 6px;
+  }
+  width: 350px;
+  margin: auto;
+}
+
+.green-sea-flat-button {
+  position: relative;
+  vertical-align: top;
+  width: auto;
+  height: auto;
+  padding: 4px;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #16a085;
+  border: 0;
+  border-bottom: 2px solid #14947b;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #14947b;
+  box-shadow: inset 0 -2px #14947b;
+  &:active {
+    top: 1px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+}
+
+.errorMess {
+  width: 100%;
+  height: 20px;
+  color: red;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
+.renderDiv{
+  width: 530px;
+  margin: auto;
+}
+
+.alarmClock {
+  position: relative;
+  text-align: center;
+  margin-left: 80px;
+  margin-top: 20px;
+  width: 330px;
+  height: 22px;
+  border-radius: 8px;
+  background-color: $main-color;
+  color:white;
+  padding: 10px;
+    .deleteBtn {
+      margin-left: 10px;
+      height: 20px;
+    }
+    .showNotes {
+      margin-left: 10px;
+      height: 20px;
+    }
+}
+
+.firstDiv{
+  display: none;
+}
+
+.inputNotes {
+  position: absolute;
+  bottom: 43px;
+  right: 1px;
+  color: white;
+  text-align: left;
+  font-family: "Brush Script Std";
+  font-size: 24px;
+  padding: 3px;
+  border-radius: 8px;
+  display: block;
+  width: 345px;
+  height: 150px;
+  overflow: hidden;
+  background-color: #14947b;
+}

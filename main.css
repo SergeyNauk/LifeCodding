@@ -1,0 +1,155 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*:active, *:hover, *:focus {
+  outline: 0;
+  outline-offset: 0; }
+
+html, body {
+  height: 99.9%; }
+
+header {
+  width: 100%;
+  height: 20%;
+  position: relative;
+  background-color: #00796B; }
+
+.wrapperH6 {
+  width: 50%;
+  height: 30%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  color: white;
+  font-size: 200%; }
+
+main {
+  margin-top: 3%; }
+
+.userMenu {
+  width: 350px;
+  margin: auto; }
+  .userMenu input {
+    background: grey;
+    color: white;
+    margin-left: 5px;
+    height: 40px;
+    text-align: center;
+    border: 0;
+    border-radius: 5px;
+    font-size: 13px; }
+  .userMenu button {
+    margin-left: 5px;
+    height: 40px;
+    font-size: 13px;
+    border-radius: 6px; }
+
+.green-sea-flat-button {
+  position: relative;
+  vertical-align: top;
+  width: auto;
+  height: auto;
+  padding: 4px;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #16a085;
+  border: 0;
+  border-bottom: 2px solid #14947b;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #14947b;
+  box-shadow: inset 0 -2px #14947b; }
+  .green-sea-flat-button:active {
+    top: 1px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+
+.errorMess {
+  width: 100%;
+  height: 20px;
+  color: red;
+  margin-left: 10px;
+  margin-top: 3px; }
+
+.renderDiv {
+  width: 530px;
+  margin: auto; }
+
+.alarmClock {
+  position: relative;
+  text-align: center;
+  margin-left: 80px;
+  margin-top: 20px;
+  width: 330px;
+  height: 22px;
+  border-radius: 8px;
+  background-color: #00796B;
+  color: white;
+  padding: 10px; }
+  .alarmClock .deleteBtn {
+    margin-left: 10px;
+    height: 20px; }
+  .alarmClock .showNotes {
+    margin-left: 10px;
+    height: 20px; }
+
+.firstDiv {
+  display: none; }
+
+.inputNotes {
+  position: absolute;
+  bottom: 43px;
+  right: 1px;
+  color: white;
+  text-align: left;
+  font-family: "Brush Script Std";
+  font-size: 24px;
+  padding: 3px;
+  border-radius: 8px;
+  display: block;
+  width: 345px;
+  height: 150px;
+  overflow: hidden;
+  background-color: #14947b; }
+
+/*# sourceMappingURL=main.css.map */
