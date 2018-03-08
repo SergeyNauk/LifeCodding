@@ -37,7 +37,7 @@ class Render {
         let minutes = this.data.alarmDate.getMinutes();
         minutes < 10 ? minutes = '0' + minutes : minutes;
 
-        let template = `<div data-timeAlarm="${this.data.alarmDate}" class='alarmClock'><div class="firstDiv" contenteditable="true">Input some here...</div><span> ${day} ${itemMonth}, Время события ${hours} : ${minutes}</span><button class="showNotes green-sea-flat-button" onclick="this.parentNode.children[0].classList.toggle('inputNotes');">Notes</button><button onClick="this.parentNode.remove()" class="deleteBtn green-sea-flat-button">Delete</button>`;
+        let template = `<div data-timeAlarm="${this.data.alarmDate}" class='alarmClock'><div class="firstDiv" contenteditable="true" data-placeholder="input some here..."></div><span> ${day} ${itemMonth}, Время события ${hours} : ${minutes}</span><button class="showNotes green-sea-flat-button" onclick="this.parentNode.children[0].classList.toggle('inputNotes');">Notes</button><button onClick="this.parentNode.remove()" class="deleteBtn green-sea-flat-button">Delete</button>`;
         this.renderDiv.insertAdjacentHTML('beforeend', template);
     }
 }

@@ -136,3 +136,7 @@ main {
   overflow: hidden;
   background-color: #14947b;
 }
+
+[contentEditable=true]:empty:not(:focus):before{
+  content:attr(data-placeholder)
+}
