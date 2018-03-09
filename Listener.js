@@ -7,7 +7,7 @@ class Listener {
         this.inputDate = document.querySelector('.inputDate');
         this.inputTime = document.querySelector('.inputTime');
 
-        this.interval = setInterval(()=>{
+        this.interval = setInterval(() => {
             this.alarmWatcher();
         }, 2000);
     }
@@ -32,7 +32,7 @@ class Listener {
 
     initApp() {
         this.createAlarmClock.addEventListener('click', () => {
-            this.vereficateMess();
+            this.validDate();
         });
 
         this.inputDate.addEventListener('focus', () => {              // add remove error mess
@@ -44,7 +44,7 @@ class Listener {
         });                                                       //
     }
 
-    vereficateMess() {
+    validDate() {
         let date = this.inputDate.value;
         let time = this.inputTime.value;
 
