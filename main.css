@@ -153,6 +153,7 @@ main {
   background-color: #14947b; }
 
 [contentEditable=true]:empty:not(:focus):before {
-  content: attr(data-placeholder); }
+  content: attr(data-placeholder);
+  opacity: 0.6; }
 
 /*# sourceMappingURL=main.css.map */
